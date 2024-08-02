@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 const Navbar = () => {
     return (
         <div>
-            <nav className='w-100 flex justify-between bg-gray-800 font-bold bg-[#ffffff]'>
+            <nav className='w-100 flex justify-between bg-gray-800 font-bold'>
                 <ul className='flex gap-4 my-4 mx-6'>
                     <li>CV Maker</li>
                     <li>Donwload</li>

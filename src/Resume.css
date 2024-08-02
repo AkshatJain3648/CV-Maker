@@ -1,0 +1,7 @@
+.CV-container{
+    color: white;
+    width: 40vw;
+    height:90vh;
+    border: 1px solid red;
+    overflow: hidden;
+}

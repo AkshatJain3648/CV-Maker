@@ -18,22 +18,22 @@ const FirstForm = (props) => {
             <div className="right md:w-[50%] h-[80%]">
                 <form action="" className='form-right'>
                         <div className="input-container ic1">
-                            <input id="fullname" className="input" type="text" placeholder=" " />
+                            <input id="fullname" className="input" type="text" onChange={props.handleTextChange}/>
                             <div className="cut"></div>
                             <label htmlFor="fullname" className="placeholder">Full name</label>
                         </div>
                         <div className="input-container ic2">
-                            <input id="email" className="input" type="text" placeholder=" " />
+                            <input id="email" className="input" type="text" placeholder=" " onChange={props.handleTextChange} value={props.formData.email}/>
                             <div className="cut cut-short"></div>
                             <label htmlFor="email" className="placeholder">Email</label>
                         </div>
                         <div className="input-container ic2">
-                            <input id="email" className="input" type="text" placeholder=" " />
+                            <input id="email" className="input" type="text" placeholder=" " onChange={props.handleTextChange}/>
                             <div className="cut cut-short"></div>
                             <label htmlFor="email" className="placeholder">Phone</label>
                         </div>
                         <div className="input-container ic2">
-                            <input id="address" className="input" type="text" placeholder=" " />
+                            <input id="address" className="input" type="text" placeholder=" " onChange={props.handleTextChange}/>
                             <div className="cut"></div>
                             <label htmlFor="address" className="placeholder">Address</label>
                         </div>

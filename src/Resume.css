@@ -7,7 +7,11 @@
     display: flex;
 }
 
-.left{
+.none{
+    display: none;
+}
+
+.cv-left{
     background-color: #dfd3c8;
     width: 35%;
     padding:3% 2% 3% 2%;
@@ -17,18 +21,21 @@
     align-items: center;
 }
 
-.left > .cover-img{
-    width: 80px;
-    border-radius: 999px;
-}
-
-.left > div{
+.cv-left > div{
     margin: 10% 0;
 }
 
-.right{
+.cv-right{
     background-color: #ffffff;
     width: 75%;
+    padding:5% 2% 5% 4%;
+}
+
+.experience > h3{
+    border-bottom: 2px solid #dac5b1;
+    margin-top: 20px;
+    font-weight: bold;
+
 }
 
 @media (min-width: 640px){
@@ -36,7 +43,7 @@
         width: 50vw;
     }
 
-    .left{
+    .cv-left{
         width: 30%;
     }
 

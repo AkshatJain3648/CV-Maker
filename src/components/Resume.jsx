@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = (props) => {
   return (
-    <div className='cv-container none'>
+    <div className='cv-container'>
       <div className="cv-left">
         <img src={props.coverImage} alt="Image" className='cover-img w-[90px] rounded-full' />
 
